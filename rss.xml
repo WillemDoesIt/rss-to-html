@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title></title>
+    <link></link>
+    <description></description>
+    <language>en-us</language>
+    <pubDate>[insert publication date here]</pubDate>
+    <lastBuildDate>[]</lastBuildDate>
+    <item>
+      <title>[post title]</title>
+      <guid>[this is to be auto generated]</guid>
+      <pubDate></pubDate>
+      <description><![CDATA[
+         <p>
+          This is html, but it will be auto generated from markdown
+        </p>
+      ]]></description>
+      <thread>
+        <comment>
+            <author>[username]</author>
+            <content><![CDATA[
+                This is a comment from another user
+            ]]></content>
+            <pubDate></pubDate>
+        </comment>
+    </thread>
+    </item>
+  </channel>
+</rss>

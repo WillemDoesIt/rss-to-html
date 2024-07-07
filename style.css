@@ -1,0 +1,215 @@
+/* My styling for the comments */
+.comments-container {
+    margin-top: 20px;
+}
+.show-more {
+    color: #FC0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    transition: color 0.2s;
+}
+.show-more img {
+    outline: none; /* Ensuring no outline */
+    border: none; /* Ensuring no border */
+    margin-left: 5px;
+}
+.show-more:hover {
+    color: #FFEE55; /* Deeper color on hover */
+}
+.comments-box {
+    border-top: 8px solid #112;
+    border-left: 8px solid #112;
+    box-shadow: 8px 8px #112;
+    padding: 20px;
+    font-size: 14px;
+    max-height: 400px; /* Set the maximum height here */
+    overflow-y: auto; /* Enable vertical scrollbar */
+}
+.hidden-comments {
+    display: none;
+}
+.comment-date {
+    text-align: center;
+    color: gray;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+table.comment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+table.comment-table td {
+    padding: 2px;
+    vertical-align: top;
+}
+table.comment-table td:first-child {
+    width: 80px;
+    color: gray;
+}
+table.comment-table td:nth-child(2) {
+    width: full;
+}
+
+/* Everything bellow is just my styling, you can do whatever you want */
+
+html {
+    background-image: url("Pics/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    image-rendering: pixelated;
+}
+
+
+@font-face{
+  font-family: 'basiic';
+  src: url(basiic.ttf);
+}
+
+* {
+    font-family: 'basiic', sans-serif;
+    color: #fff;
+}
+
+
+/* Track */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background-color: #112; /* Background color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #334; /* Color of the scrollbar handle */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background-color: #334; /* Color of the scrollbar corner */
+}
+
+
+body {
+  .full {
+    width: 98%;
+    max-width: 1090px;
+    margin: auto;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+  
+  .nav {
+      image-rendering:auto;
+      float: left;
+      margin-left: 2px;
+  
+      img {
+          padding-top: 20%;
+          padding-bottom: 10%;
+          width: 100%;
+      }
+  
+      ul {
+          outline: 4px solid #F07;
+          outline-offset: 4px;
+          box-shadow: 16px 16px #001;
+          border: 8px solid #112;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 70px;
+          background-color: #223;
+          position: fixed;
+          height: auto;
+      }
+        
+      li a {
+          display: block;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: color 0.2s;
+      }
+        
+      li a.active {
+          background-color: #F07;
+      }
+        
+      li a:hover.active {
+          background-color: #D06;
+      }
+  
+      li a:hover:not(.active) {
+          background-color: #555;
+      }
+  }
+  
+  .page {
+      outline: 4px solid #F07;
+      outline-offset: 4px;
+      box-shadow: 16px 16px #001;
+      width:calc(100% - 290px);
+      margin: auto;
+      margin-top: 0px;
+      position: static;
+      padding: 24px;
+      border: 4px solid #112;
+      background-color: #223;
+      overflow: hidden; /* Hide overflow content */
+      word-wrap: break-word; /* Break long words */
+      text-overflow: ellipsis; /* Add ellipsis for overflow text */
+      
+      /* Ensure preformatted text wraps */
+      pre {
+        white-space: pre-wrap; /* Allow preformatted text to wrap */
+      }
+
+      /* Ensure long links wrap */
+      a {
+          word-break: break-all; /* Break long URLs to prevent overflow */
+          display: inline-block;
+          word-wrap: break-word;
+      }
+
+      /* Ensure table cells wrap text */
+      table {
+          width: 100%; /* Make table width 100% of container */
+          table-layout: fixed; /* Fixed layout to ensure cell wrapping */
+      }
+
+      table td {
+          overflow: hidden; /* Hide overflow content */
+          text-overflow: ellipsis; /* Add ellipsis for overflow text */
+          word-wrap: break-word; /* Break long words */
+      }
+      
+      h1 {
+          color: #0CF
+      }
+  
+      a:link {
+          color: #F07;
+          text-decoration: none;
+      }
+      
+      a:visited {
+          color: #50F;
+      }  
+      a:hover {
+          color: #D06;
+      }
+  
+      img {
+          outline: 8px solid #112;
+          outline-offset: 2px;
+          border: 4px solid transparent;
+          margin: 12px;
+  
+      }  
+  }
+}

@@ -10,3 +10,5 @@ It will work even if you don't have a comment system setup.
 ### Example
 
 [my blog](https://willemdoesnt.neocities.org/Feeds/blog)
+
+I have a more advanced version I plan to opensource when I get the chance as seen [here](https://dh-reflections.neocities.org/)
